@@ -18,5 +18,4 @@ public class NumbersTest {
     public final void whenNumberThenRuntimeExceptionIsThrown() {
         assertThat( Numbers.getNumbers(2*3*5*7*11*13*17),contains(2, 3, 5, 7, 11, 13, 17));
     }
-
 }
